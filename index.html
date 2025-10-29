@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Weazel News - Le ultime notizie da Los Santos, San Andreas e Blaine County">
+    <meta name="theme-color" content="#567b95">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Weazel News">
+    <title>Weazel News - Notizie di Los Santos</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <style>
+        /* Prevent text size adjustment on orientation change */
+        html {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+        
+        /* Better tap highlight */
+        * {
+            -webkit-tap-highlight-color: rgba(86, 123, 149, 0.2);
+        }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Prevent horizontal scroll on mobile */
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <nav class="header-nav">
+                <a href="#">LOS SANTOS</a>
+                <a href="#">BLAINE COUNTY</a>
+            </nav>
+        </div>
+        
+        <div class="header-main">
+            <div class="date-section">
+                <div id="current-date"></div>
+                <div class="paper-edition">Edizione di Oggi</div>
+            </div>
+            
+            <h1 class="site-logo">Weazel News</h1>
+            
+            <div class="market-data">
+                <span id="market-info">Maze Bank +0.8% ↑</span>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            
+        </nav>
+        
+        <div class="breaking-news">
+            <span class="live-badge">LIVE</span>
+            <div class="breaking-items" id="breaking-news"></div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="content-grid">
+            <!-- Main Story -->
+            <article class="main-story" id="main-story">
+                <span class="live-badge">LIVE</span>
+                <h2 class="article-title"></h2>
+                <p class="article-summary"></p>
+                <a href="#" class="more-link">Vedi altri aggiornamenti ›</a>
+            </article>
+
+            <!-- Featured Video/Image -->
+            <div class="featured-media" id="featured-media">
+                <div class="media-container">
+                    <img src="" alt="">
+                    <div class="media-caption"></div>
+                </div>
+                <div class="media-controls">
+                    <button class="control-btn fullscreen">⛶</button>
+                    <button class="control-btn mute">🔇</button>
+                    <button class="control-btn link">🔗</button>
+                    <button class="control-btn cc">CC</button>
+                </div>
+            </div>
+
+            <!-- Secondary Stories -->
+            <div class="secondary-stories">
+                <article class="story-item" data-story="1">
+                    <h3 class="story-title"></h3>
+                    <span class="read-time"></span>
+                </article>
+                <article class="story-item" data-story="2">
+                    <h3 class="story-title"></h3>
+                </article>
+            </div>
+
+            <!-- Side Feature -->
+            <aside class="side-feature" id="side-feature">
+                <img src="" alt="">
+                <div class="feature-credit"></div>
+                <h3 class="feature-title"></h3>
+                <p class="feature-summary"></p>
+                <span class="read-time"></span>
+            </aside>
+
+            <!-- Bottom Stories -->
+            <div class="bottom-stories" id="bottom-stories">
+                <!-- Stories will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Audio Section -->
+        <section class="audio-section" id="audio-section">
+            <img src="" alt="" class="audio-thumb">
+            <div class="audio-content">
+                <span class="section-label">I TITOLI</span>
+                <span class="audio-badge">AUDIO</span>
+                <h3 class="audio-title"></h3>
+                <button class="play-btn">▶ <span class="duration"></span></button>
+            </div>
+        </section>
+
+        <!-- Featured Section (Trump's Trip equivalent) -->
+        <section class="featured-section" id="featured-section">
+            <h2 class="featured-title"></h2>
+            <nav class="featured-nav">
+                <!-- Nav items will be loaded here -->
+            </nav>
+        </section>
+    </main>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>

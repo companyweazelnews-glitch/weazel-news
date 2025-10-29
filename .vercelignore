@@ -1,0 +1,4 @@
+# Don't ignore these (explicitly include)
+!src/
+!src/**
+!*.md

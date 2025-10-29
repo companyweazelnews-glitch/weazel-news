@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validatore Articles.json - Weazel News</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #121212;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .upload-area {
+            border: 3px dashed #ccc;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-bottom: 20px;
+        }
+
+        .upload-area:hover {
+            border-color: #567b95;
+            background: #f9f9f9;
+        }
+
+        .upload-area.dragover {
+            border-color: #567b95;
+            background: #e8f4f8;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .btn {
+            background: #567b95;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background: #456b85;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .result.success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+
+        .result.error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+
+        .result.warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+        }
+
+        .result h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .result ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .result li {
+            margin-bottom: 8px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #567b95;
+        }
+
+        .stat-card h3 {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            font-size: 24px;
+            font-weight: bold;
+            color: #121212;
+        }
+
+        .icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-top: 10px;
+        }
+
+        .articles-preview {
+            margin-top: 20px;
+        }
+
+        .article-card {
+            background: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #567b95;
+        }
+
+        .article-card h4 {
+            color: #121212;
+            margin-bottom: 5px;
+        }
+
+        .article-card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .instructions {
+            background: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .instructions h3 {
+            margin-bottom: 10px;
+            color: #121212;
+        }
+
+        .instructions ol {
+            margin-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Validatore Articles.json</h1>
+        <p class="subtitle">Verifica che il tuo file articles.json sia corretto prima di caricarlo online</p>
+
+        <div class="instructions">
+            <h3>📖 Come Usare</h3>
+            <ol>
+                <li>Trascina il file <strong>articles.json</strong> nell'area sotto</li>
+                <li>Oppure clicca per selezionare il file</li>
+                <li>Il validatore verificherà se ci sono errori</li>
+                <li>Se ci sono problemi, ti dirà esattamente cosa sistemare</li>
+            </ol>
+        </div>
+
+        <div class="upload-area" id="uploadArea">
+            <div class="icon">📄</div>
+            <p><strong>Trascina qui articles.json</strong></p>
+            <p>oppure clicca per selezionare</p>
+            <input type="file" id="fileInput" accept=".json">
+        </div>
+
+        <div style="text-align: center;">
+            <button class="btn" onclick="document.getElementById('fileInput').click()">
+                Seleziona File
+            </button>
+        </div>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const resultDiv = document.getElementById('result');
+
+        // Click to upload
+        uploadArea.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        // Prevent default drag behaviors
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            uploadArea.addEventListener(eventName, preventDefaults, false);
+            document.body.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        // Highlight drop area
+        ['dragenter', 'dragover'].forEach(eventName => {
+            uploadArea.addEventListener(eventName, () => {
+                uploadArea.classList.add('dragover');
+            });
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            uploadArea.addEventListener(eventName, () => {
+                uploadArea.classList.remove('dragover');
+            });
+        });
+
+        // Handle dropped files
+        uploadArea.addEventListener('drop', (e) => {
+            const files = e.dataTransfer.files;
+            handleFiles(files);
+        });
+
+        // Handle selected files
+        fileInput.addEventListener('change', (e) => {
+            const files = e.target.files;
+            handleFiles(files);
+        });
+
+        function handleFiles(files) {
+            if (files.length === 0) return;
+
+            const file = files[0];
+            
+            if (!file.name.endsWith('.json')) {
+                showResult('error', 'Errore: File non valido', 
+                    'Il file deve essere un .json. Hai caricato: ' + file.name);
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                validateJSON(e.target.result);
+            };
+            reader.readAsText(file);
+        }
+
+        function validateJSON(content) {
+            const errors = [];
+            const warnings = [];
+            let articles = null;
+
+            // Try to parse JSON
+            try {
+                articles = JSON.parse(content);
+            } catch (e) {
+                showResult('error', '❌ Errore di Sintassi JSON', 
+                    `Il file non è un JSON valido:<br><br><strong>${e.message}</strong><br><br>` +
+                    'Usa <a href="https://jsonlint.com" target="_blank">JSONLint</a> per trovare l\'errore esatto.');
+                return;
+            }
+
+            // Check if it's an array
+            if (!Array.isArray(articles)) {
+                errors.push('Il file deve contenere un array di articoli [ ... ]');
+            }
+
+            // Validate each article
+            if (Array.isArray(articles)) {
+                const ids = new Set();
+                const featuredPositions = {};
+
+                articles.forEach((article, index) => {
+                    const articleNum = index + 1;
+
+                    // Check required fields
+                    if (!article.id) {
+                        errors.push(`Articolo ${articleNum}: Manca il campo "id"`);
+                    } else {
+                        // Check duplicate IDs
+                        if (ids.has(article.id)) {
+                            errors.push(`Articolo ${articleNum}: ID "${article.id}" duplicato`);
+                        }
+                        ids.add(article.id);
+                    }
+
+                    if (!article.title) {
+                        errors.push(`Articolo ${articleNum}: Manca il campo "title"`);
+                    }
+
+                    if (!article.summary) {
+                        warnings.push(`Articolo ${articleNum} ("${article.title}"): Manca il "summary"`);
+                    }
+
+                    if (!article.content) {
+                        warnings.push(`Articolo ${articleNum} ("${article.title}"): Manca il "content"`);
+                    } else if (!Array.isArray(article.content)) {
+                        errors.push(`Articolo ${articleNum}: "content" deve essere un array [ ... ]`);
+                    }
+
+                    // Check featured positions
+                    if (article.featured) {
+                        const validPositions = ['main', 'media', 'side', 'secondary', 'bottom'];
+                        if (!validPositions.includes(article.featured)) {
+                            warnings.push(`Articolo ${articleNum}: "${article.featured}" non è una posizione valida`);
+                        }
+
+                        // Check for duplicates (except secondary and bottom)
+                        if (!['secondary', 'bottom'].includes(article.featured)) {
+                            if (featuredPositions[article.featured]) {
+                                warnings.push(`Posizione "${article.featured}" usata più volte. Solo una sarà visibile.`);
+                            }
+                            featuredPositions[article.featured] = true;
+                        }
+                    }
+
+                    // Check image URL
+                    if (article.image && !article.image.startsWith('http')) {
+                        warnings.push(`Articolo ${articleNum}: URL immagine non valido (deve iniziare con http)`);
+                    }
+                });
+            }
+
+            // Show results
+            if (errors.length === 0 && warnings.length === 0) {
+                showSuccessResult(articles);
+            } else if (errors.length > 0) {
+                showResult('error', '❌ Errori Trovati', 
+                    '<strong>Il file ha degli errori che devono essere corretti:</strong>' +
+                    '<ul>' + errors.map(e => `<li>${e}</li>`).join('') + '</ul>' +
+                    (warnings.length > 0 ? '<br><strong>Avvisi:</strong><ul>' + 
+                    warnings.map(w => `<li>${w}</li>`).join('') + '</ul>' : ''));
+            } else {
+                showResult('warning', '⚠️ Avvisi', 
+                    '<strong>Il file è valido ma ci sono alcuni avvisi:</strong>' +
+                    '<ul>' + warnings.map(w => `<li>${w}</li>`).join('') + '</ul>' +
+                    '<br><em>Gli avvisi non bloccano il funzionamento, ma è meglio sistemarli.</em>');
+            }
+        }
+
+        function showSuccessResult(articles) {
+            const featuredCounts = {
+                main: 0,
+                media: 0,
+                side: 0,
+                secondary: 0,
+                bottom: 0
+            };
+
+            articles.forEach(article => {
+                if (article.featured && featuredCounts.hasOwnProperty(article.featured)) {
+                    featuredCounts[article.featured]++;
+                }
+            });
+
+            let html = `
+                <h2>✅ File Valido!</h2>
+                <p>Il file articles.json è corretto e pronto per essere caricato online.</p>
+                
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3>Totale Articoli</h3>
+                        <p>${articles.length}</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Articolo Principale</h3>
+                        <p>${featuredCounts.main}</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Featured Media</h3>
+                        <p>${featuredCounts.media}</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Side Feature</h3>
+                        <p>${featuredCounts.side}</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Secondari</h3>
+                        <p>${featuredCounts.secondary}</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Bottom</h3>
+                        <p>${featuredCounts.bottom}</p>
+                    </div>
+                </div>
+
+                <div class="articles-preview">
+                    <h3>📰 Anteprima Articoli:</h3>
+                    ${articles.slice(0, 5).map(article => `
+                        <div class="article-card">
+                            <h4>${article.title}</h4>
+                            <p><strong>ID:</strong> ${article.id} | 
+                               <strong>Autore:</strong> ${article.author || 'Non specificato'} | 
+                               <strong>Categoria:</strong> ${article.category || 'Non specificata'} |
+                               <strong>Posizione:</strong> ${article.featured || 'Non in homepage'}</p>
+                        </div>
+                    `).join('')}
+                    ${articles.length > 5 ? `<p><em>... e altri ${articles.length - 5} articoli</em></p>` : ''}
+                </div>
+            `;
+
+            resultDiv.className = 'result success';
+            resultDiv.innerHTML = html;
+            resultDiv.style.display = 'block';
+        }
+
+        function showResult(type, title, message) {
+            resultDiv.className = 'result ' + type;
+            resultDiv.innerHTML = `<h2>${title}</h2><p>${message}</p>`;
+            resultDiv.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

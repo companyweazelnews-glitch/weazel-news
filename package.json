@@ -1,0 +1,26 @@
+{
+  "name": "weazel-news",
+  "version": "1.0.0",
+  "description": "Clone del New York Times per server GTA RP - Weazel News",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "validate": "node -e \"console.log('Usa validator.html nel browser')\"",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "gta",
+    "roleplay",
+    "newspaper",
+    "weazel-news",
+    "new-york-times",
+    "clone"
+  ],
+  "author": "Weazel News Team",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/weazel-news"
+  }
+}

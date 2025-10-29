@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "title": "Rapina alla Pacific Standard: Fuggitivi Ancora Ricercati",
+    "summary": "Una banda organizzata ha colpito la Pacific Standard Bank ieri sera, fuggendo con oltre 2 milioni di dollari.",
+    "content": [
+      "Lemon City — Nelle ultime ore la redazione di Weazel News ha ricevuto una segnalazione anonima da parte di un presunto gruppo di cittadini preoccupati per “abusi di potere, arresti sommari e coperture interne” all'interno del Dipartimento di Polizia di Lemon City (LCPD).",
+
+"Il collettivo — che afferma di rappresentare testimoni e vittime di presunte ingiustizie — richiede l'avvio immediato di controlli interni e azioni trasparenti nei confronti degli agenti coinvolti.",
+"«La nostra richiesta è chiara e non negoziabile: la LCPD deve prendere provvedimenti immediati e comprovabili»",
+ "— estratto dalla comunicazione ricevuta",
+"Nel messaggio giunto alla nostra redazione si elencano tre punti principali:",
+"Controlli interni seri sugli agenti sospettati",
+
+
+"Misure cautelari immediate verso chi è accusato di abusi",
+
+
+"Comunicazione trasparente alla cittadinanza sulle iniziative adottate",
+
+
+"A corredo della denuncia è stata inviata anche una foto simbolica, definita dagli stessi autori come rappresentativa della loro presenza sul territorio e della determinazione a ottenere giustizia."
+    ],
+    "author": "Marcus Thompson",
+    "category": "POLITICA",
+    "tags": ["sport"],
+    "publishedDate": "2025-10-29T20:00:00Z",
+    "readTime": "5 MIN",
+    "image": "https://via.placeholder.com/1200x600/1a1a2e/ffffff?text=Rapina",
+    "archived": false,
+    "position": "main",
+    "priority": 3
+  },
+  {
+    "id": "2",
+    "title": "Tornado a Sandy Shores: Evacuate 500 Persone",
+    "summary": "Un tornado di categoria 3 ha devastato Sandy Shores causando danni ingenti.",
+    "content": [
+      "Sandy Shores - Un violento tornado ha colpito la contea di Blaine.",
+      "## I Danni",
+      "Oltre 500 persone evacuate, fortunatamente nessuna vittima."
+    ],
+    "author": "Sarah Chen",
+    "category": "METEO",
+    "tags": ["meteo"],
+    "publishedDate": "2025-10-29T15:00:00Z",
+    "readTime": "4 MIN",
+    "image": "https://via.placeholder.com/1200x600/4a4a4a/ffffff?text=Tornado",
+    "archived": false,
+    "position": "media",
+    "priority": 2
+  },
+  {
+    "id": "3",
+    "title": "Nuovi Hotel di Lusso a Vinewood Hills",
+    "summary": "Sei nuovi hotel boutique aprono nella prestigiosa area di Vinewood Hills.",
+    "content": [
+      "Vinewood Hills - Il paesaggio dell'ospitalità di lusso sta cambiando.",
+      "## I Nuovi Hotel",
+      "The Observatory Suites e Villa Eclipse sono tra le aperture più attese."
+    ],
+    "author": "Jennifer Milano",
+    "category": "LIFESTYLE",
+    "tags": ["lifestyle"],
+    "publishedDate": "2025-10-28T10:00:00Z",
+    "readTime": "6 MIN",
+    "image": "https://via.placeholder.com/800x600/e8d5b7/000000?text=Hotel+Lusso",
+    "archived": false,
+    "position": "side",
+    "priority": 3
+  },
+  {
+    "id": "4",
+    "title": "Nuove Leggi sul Traffico Approvate",
+    "summary": "Il consiglio comunale approva restrizioni per ridurre la congestione.",
+    "content": [
+      "Il consiglio comunale ha approvato nuove leggi sul traffico.",
+      "## Cosa Cambia",
+      "Zone a traffico limitato attive dalle 7:00 alle 19:00 in centro."
+    ],
+    "author": "David Park",
+    "category": "POLITICA",
+    "tags": ["politica"],
+    "publishedDate": "2025-10-27T18:00:00Z",
+    "readTime": "3 MIN",
+    "archived": false,
+    "position": "bottom",
+    "priority": 4
+  },
+  {
+    "id": "5",
+    "title": "Los Santos FC Vince il Derby 3-1",
+    "summary": "Vittoria dominante del Los Santos FC nel derby cittadino.",
+    "content": [
+      "Una serata memorabile al Maze Bank Arena.",
+      "## La Partita",
+      "Martinez, Johnson e Rodriguez i marcatori della vittoria."
+    ],
+    "author": "Mike Roberts",
+    "category": "SPORT",
+    "tags": ["sport"],
+    "publishedDate": "2025-10-26T22:00:00Z",
+    "readTime": "4 MIN",
+    "image": "https://via.placeholder.com/800x400/2d5016/ffffff?text=LS+FC",
+    "archived": true,
+    "position": "bottom",
+    "priority": 99
+  },
+  {
+    "id": "6",
+    "title": "Accordo Commerciale con Liberty City",
+    "summary": "Firmato importante accordo economico tra Los Santos e Liberty City.",
+    "content": [
+      "Una serata storica per l'economia di San Andreas.",
+      "## I Dettagli",
+      "L'accordo porterà investimenti per oltre 500 milioni di dollari."
+    ],
+    "author": "Robert Anderson",
+    "category": "ECONOMIA",
+    "tags": ["economia"],
+    "publishedDate": "2025-10-26T14:00:00Z",
+    "readTime": "5 MIN",
+    "image": "https://via.placeholder.com/800x400/1e3a5f/ffffff?text=Economia",
+    "archived": false,
+    "position": "bottom",
+    "priority": 5
+  }
+]
