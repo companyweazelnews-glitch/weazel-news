@@ -8,7 +8,7 @@
 
 "Il collettivo — che afferma di rappresentare testimoni e vittime di presunte ingiustizie — richiede l'avvio immediato di controlli interni e azioni trasparenti nei confronti degli agenti coinvolti.",
 
-"«La nostra richiesta è chiara e non negoziabile: la LCPD deve prendere provvedimenti immediati e comprovabili»",
+"##### «La nostra richiesta è chiara e non negoziabile: la LCPD deve prendere provvedimenti immediati e comprovabili»",
 "— estratto dalla comunicazione ricevuta",
 
 "Secondo quanto riferito, il gruppo avrebbe raccolto documentazioni e testimonianze, e si dice pronto a renderle pubbliche nel caso in cui le autorità non diano riscontro alle richieste.",
@@ -60,54 +60,100 @@
   },
   {
     "id": "2",
-    "title": "Tornado a Sandy Shores: Evacuate 500 Persone",
-    "summary": "Un tornado di categoria 3 ha devastato Sandy Shores causando danni ingenti.",
+    "title": "Nasce una nuova era dell’informazione: Formisano & Denaro presentano la loro visione per la città",
+    "summary": "Lemon City — Una nuova voce nel panorama mediatico della città si alza con determinazione e professionalità: Weazel News Lemon City si presenta ufficialmente ai cittadini, guidata dai suoi due fondatori, Leonardo Formisano e Tony Denaro.",
     "content": [
-      "Sandy Shores - Un violento tornado ha colpito la contea di Blaine.",
-      "## I Danni",
-      "Oltre 500 persone evacuate, fortunatamente nessuna vittima."
+      "## Chi siamo: due professionisti, una missione condivisa",
+
+"Leonardo Formisano, fondatore e direttore editoriale, porta con sé una forte passione per la verità e una visione chiara di un giornalismo capace di informare, proteggere e dare voce alla comunità.",
+
+"“Weazel News racconterà Lemon City senza filtri e senza paura.",
+"Il nostro dovere è la trasparenza verso ogni cittadino.”",
+
+"Accanto a lui, Tony Denaro, co-proprietario e responsabile dei rapporti istituzionali, con una lunga esperienza nel campo della comunicazione e dell’informazione pubblica.",
+
+
+"“Saremo presenti ovunque ci sia una storia da raccontare: nelle strade, nei quartieri, nelle istituzioni.”",
+
+"Cosa porta Weazel News Lemon City",
+
+"La redazione si impegna a offrire:",
+
+"Notizie verificate e aggiornamenti costanti",
+"Reportage e approfondimenti investigativi",
+"Trasparenza verso cittadini e istituzioni",
+"Uno spazio dedicato alla voce della comunità",
+
+"Dal governo alla polizia, dal mondo degli affari alla vita dei quartieri: nessun fatto verrà ignorato.",
+
+"Perché nasciamo adesso",
+
+"Lemon City sta vivendo un momento di grande cambiamento.",
+
+"Tra tensioni sociali, casi controversi e crescente richiesta di giustizia, emerge sempre più la necessità di un giornalismo libero che possa raccontare la verità senza pressioni esterne.",
+
+"“Weazel News sarà un faro.",
+"Dove ci sono ombre, noi porteremo luce.”",
+"— L. Formisano & T. Denaro",
+
+"La chiamata ai cittadini",
+
+"Tutti coloro che vogliono segnalare fatti, problemi o storie importanti possono contattare la redazione attraverso i nostri canali ufficiali.",
+
+"La città ha molto da dire…",
+"e noi siamo qui per ascoltarla.",
+
+"Resta aggiornato: grandi inchieste e servizi esclusivi in arrivo.",
+"Weazel News — La voce della città"
     ],
-    "author": "Sarah Chen",
-    "category": "METEO",
-    "tags": ["meteo"],
+    "author": "Leonardo Formisano & Tony Denaro",
+    "category": "WEAZEL NEWS",
+    "tags": ["Weazel News"],
     "publishedDate": "2025-10-29T15:00:00Z",
-    "readTime": "4 MIN",
-    "image": "https://via.placeholder.com/1200x600/4a4a4a/ffffff?text=Tornado",
-    "archived": false,
-    "position": "media",
-    "priority": 2
-  },
-  {
-    "id": "3",
-    "title": "Nuovi Hotel di Lusso a Vinewood Hills",
-    "summary": "Sei nuovi hotel boutique aprono nella prestigiosa area di Vinewood Hills.",
-    "content": [
-      "Vinewood Hills - Il paesaggio dell'ospitalità di lusso sta cambiando.",
-      "## I Nuovi Hotel",
-      "The Observatory Suites e Villa Eclipse sono tra le aperture più attese."
-    ],
-    "author": "Jennifer Milano",
-    "category": "LIFESTYLE",
-    "tags": ["lifestyle"],
-    "publishedDate": "2025-10-28T10:00:00Z",
-    "readTime": "6 MIN",
-    "image": "https://via.placeholder.com/800x600/e8d5b7/000000?text=Hotel+Lusso",
+    "readTime": "5 MIN",
+    "image": "https://i.imgur.com/ngfxIIA.png",
     "archived": false,
     "position": "side",
     "priority": 3
   },
   {
-    "id": "4",
-    "title": "Nuove Leggi sul Traffico Approvate",
-    "summary": "Il consiglio comunale approva restrizioni per ridurre la congestione.",
+    "id": "3",
+    "title": "",
+    "summary": "",
     "content": [
-      "Il consiglio comunale ha approvato nuove leggi sul traffico.",
-      "## Cosa Cambia",
-      "Zone a traffico limitato attive dalle 7:00 alle 19:00 in centro."
+      ""
     ],
-    "author": "David Park",
-    "category": "POLITICA",
-    "tags": ["politica"],
+    "author": "Jennifer Milano",
+    "category": "ECONOMIA",
+    "tags": ["Economia"],
+    "publishedDate": "2025-10-28T10:00:00Z",
+    "readTime": "6 MIN",
+    "image": "https://i.imgur.com/53kropD.png",
+    "archived": false,
+    "position": "media",
+    "priority": 2
+  },
+  {
+    "id": "4",
+    "title": "“Lemon City si accende: nuovi locali aprono le porte e la movida riparte”",
+    "content": [
+      "Lemon City — La città torna a brillare. Negli ultimi giorni sono stati inaugurati diversi nuovi locali nelle principali vie cittadine: lounge bar moderni, ristoranti etnici, club esclusivi e punti di ritrovo per giovani e famiglie.",
+
+      "Molti imprenditori hanno deciso di investire in una Lemon City più viva e attraente, sperando di dare una spinta positiva all’economia locale e alla socialità.",
+
+"“La città aveva bisogno di tornare a divertirsi.”",
+"“Qui le persone devono sentirsi a casa.”",
+"— Proprietario di un nuovo bar",
+
+"I cittadini hanno accolto con entusiasmo le novità e già si vedono strade più animate nelle ore serali.",
+
+"Secondo il dipartimento del commercio, questa potrebbe essere solo la prima ondata di aperture, con altri progetti in fase di approvazione.",
+
+"Weazel News vi accompagnerà alla scoperta dei nuovi luoghi simbolo della vita di Lemon City… con interviste, recensioni e reportage esclusivi."
+    ],
+    "author": "Leonardo Formisano & Tony Denaro",
+    "category": "ECONOMIA",
+    "tags": ["Economia"],
     "publishedDate": "2025-10-27T18:00:00Z",
     "readTime": "3 MIN",
     "archived": false,
@@ -115,39 +161,43 @@
     "priority": 4
   },
   {
-    "id": "5",
-    "title": "Los Santos FC Vince il Derby 3-1",
-    "summary": "Vittoria dominante del Los Santos FC nel derby cittadino.",
-    "content": [
-      "Una serata memorabile al Maze Bank Arena.",
-      "## La Partita",
-      "Martinez, Johnson e Rodriguez i marcatori della vittoria."
-    ],
-    "author": "Mike Roberts",
-    "category": "SPORT",
-    "tags": ["sport"],
-    "publishedDate": "2025-10-26T22:00:00Z",
-    "readTime": "4 MIN",
-    "image": "https://via.placeholder.com/800x400/2d5016/ffffff?text=LS+FC",
-    "archived": true,
-    "position": "bottom",
-    "priority": 99
-  },
-  {
     "id": "6",
-    "title": "Accordo Commerciale con Liberty City",
+    "title": "“Parola alle istituzioni: Weazel News annuncia esclusive interviste a Governatore e Capo della LCPD”",
     "summary": "Firmato importante accordo economico tra Los Santos e Liberty City.",
     "content": [
-      "Una serata storica per l'economia di San Andreas.",
-      "## I Dettagli",
-      "L'accordo porterà investimenti per oltre 500 milioni di dollari."
+    "Lemon City — La nostra redazione è pronta a portare sul tavolo le domande che i cittadini si pongono ogni giorno.",
+
+"Weazel News Lemon City annuncia ufficialmente che nei prossimi giorni realizzerà due importanti interviste istituzionali:",
+
+"Capo della Polizia della LCPD",
+"Governatore di Lemon City",
+
+"Lo scopo è chiaro:",
+"informare la comunità sulle scelte di governo e sulle iniziative per la sicurezza pubblica",
+
+"I temi che tratteremo includeranno:",
+
+"Lotta alla criminalità e sicurezza urbana",
+
+"Rapporti tra cittadini e forze dell’ordine",
+
+"Nuovi progetti e investimenti per il futuro della città",
+
+"Trasparenza istituzionale e diritti civili",
+
+"“Le istituzioni devono rispondere al popolo.",
+"E noi saremo la loro voce.”",
+
+"Invitiamo i cittadini a farci pervenire domande e segnalazioni che vorrebbero sottoporre ai rappresentanti pubblici: sarà nostra cura portarle sul tavolo del dibattito.",
+
+"Weazel News: La voce della città"
+
     ],
     "author": "Robert Anderson",
-    "category": "ECONOMIA",
-    "tags": ["economia"],
+    "category": "WEAZEL NEWS",
+    "tags": ["Weazel News"],
     "publishedDate": "2025-10-26T14:00:00Z",
-    "readTime": "5 MIN",
-    "image": "https://via.placeholder.com/800x400/1e3a5f/ffffff?text=Economia",
+    "readTime": "2 MIN",
     "archived": false,
     "position": "bottom",
     "priority": 5
