@@ -1,4 +1,20 @@
 [
+    {
+    "id": "0.0",
+    "title": "",
+    "summary": "",
+    "content": [
+    ],
+    "author": "Leonardo Formisano & Tony Denaro",
+    "category": "ECONOMIA",
+    "tags": ["Economia"],
+    "publishedDate": "2025-10-30T18:00:00Z",
+    "readTime": "2 MIN",
+    "image": "https://upload.lemoncityrp.it/upload/69125d398690f.webp",
+    "archived": false,
+    "position": "media",
+    "priority": 1
+  },
   {
     "id": "1",
     "title": "«Abusi di potere nella LCPD?» — Un gruppo anonimo chiede risposte entro 72 ore",
@@ -54,7 +70,7 @@
     "publishedDate": "2025-10-30T18:00:00Z",
     "readTime": "5 MIN",
     "image": "https://i.imgur.com/1l2BSbR.png",
-    "archived": false,
+    "archived": true,
     "position": "main",
     "priority": 1
   },
@@ -112,26 +128,9 @@
     "publishedDate": "2025-10-30T18:00:01Z",
     "readTime": "5 MIN",
     "image": "https://i.imgur.com/ngfxIIA.png",
-    "archived": false,
+    "archived": true,
     "position": "side",
     "priority": 3
-  },
-  {
-    "id": "3",
-    "title": "",
-    "summary": "",
-    "content": [
-      ""
-    ],
-    "author": "Jennifer Milano",
-    "category": "ECONOMIA",
-    "tags": ["Economia"],
-    "publishedDate": "2025-10-30T18:00:00Z",
-    "readTime": "6 MIN",
-    "image": "https://i.imgur.com/53kropD.png",
-    "archived": false,
-    "position": "media",
-    "priority": 2
   },
   {
     "id": "4",
@@ -158,7 +157,7 @@
     "tags": ["Economia"],
     "publishedDate": "2025-10-30T18:00:00Z",
     "readTime": "3 MIN",
-    "archived": false,
+    "archived": true,
     "position": "bottom",
     "priority": 4
   },
@@ -198,10 +197,191 @@
     "author": "Leonardo Formisano & Tony Denaro",
     "category": "WEAZEL NEWS",
     "tags": ["Weazel News"],
-    "publishedDate": "2025-10-30T18:00:00Z",
+    "publishedDate": "2025-10-10T18:00:00Z",
     "readTime": "2 MIN",
-    "archived": false,
+    "archived": true,
     "position": "bottom",
     "priority": 5
+  },
+  {
+    "id": "1.001",
+    "title": "«Il Governatore Mantello parla ai cittadini: “Il Governo è al fianco della gente, non al di sopra”",
+    "summary": "Lemon City — In un’intervista esclusiva rilasciata a Weazel News Lemon City, il Governatore Mantello ha affrontato temi centrali per la città: trasparenza, fiducia tra cittadini e istituzioni, riforme economiche e la volontà di costruire un governo vicino alla comunità. L’incontro, tenutosi a Palazzo del Governo, ha offerto un quadro chiaro della visione politica dell’attuale esecutivo, che punta su fiducia, presenza e partecipazione.",
+    "content": [
+      "## “Il Governo è dei cittadini, non sopra di loro”",
+
+"Il Governatore ha sottolineato con fermezza l’importanza del rapporto diretto con la popolazione:",
+
+"“Il Governo non deve essere visto come un’entità suprema o distante, ma come un alleato del cittadino.”",
+"“Le porte del Governo sono sempre aperte per qualsiasi segnalazione o richiesta.”",
+
+"Il Gov. Mantello ha inoltre invitato chiunque abbia subito abusi o soprusi a denunciare senza paura, ribadendo che “chi sbaglia deve pagare, indipendentemente dal ruolo che ricopre”.",
+
+"## Rapporto con la LCPD e fiducia nelle forze dell'ordine",
+
+"Riguardo ai presunti abusi di potere che hanno scosso la città nelle ultime settimane, il Governatore ha dichiarato di avere piena fiducia nei vertici del Dipartimento di Polizia (LCPD)",
+
+"“Gli agenti sono addestrati per servire la legge e tutelare i cittadini.”",
+"“Se esistono irregolarità, saranno individuate e sanzionate secondo le regole.”",
+
+"Il Gov. Mantello ha però ricordato che “le denunce devono essere fatte agli organi competenti”, affinché possano essere avviate indagini formali e trasparenti.",
+
+"## Riforme, sviluppo e sostegno alle attività locali",
+
+"Tra i punti cardine del programma politico, il Governatore ha messo in evidenza la crescita economica e il supporto alle imprese locali:",
+
+"“Abbiamo già avviato una serie di riforme a beneficio dei cittadini e dei locali.”",
+"“Vogliamo dare visibilità e sostegno agli imprenditori che credono in Lemon City.”",
+
+"Ha inoltre annunciato la creazione di un Consiglio Commerciale per favorire il dialogo diretto tra governo e rappresentanti del settore economico, con l’obiettivo di risolvere problemi e stimolare nuove opportunità.",
+
+"## Fiducia e presenza sul territorio",
+
+"Alla domanda sul rapporto tra cittadini e istituzioni, Il Gov. Mantello ha risposto con un messaggio di vicinanza e umiltà:",
+
+"“Bisogna scendere in strada, farsi vedere, farsi conoscere. Solo così si conquista la fiducia delle persone.”",
+
+"Ha poi aggiunto che la fiducia non si ottiene con promesse, ma con il lavoro quotidiano e la trasparenza.",
+
+"## Libertà di stampa e collaborazione con i media",
+
+"Un passaggio importante è stato dedicato ai media e alla libertà di stampa:",
+
+"“Le testate giornalistiche sono il fondamento della democrazia. Questo governo non metterà mai a tacere i media. Viva la libertà di stampa, giusta e democratica.”",
+
+" Il Gov. Mantello ha riconosciuto l’importanza delle testate indipendenti come Weazel News nel mantenere un equilibrio democratico e garantire una corretta informazione pubblica.",
+
+"## “Un governo trasparente, giusto e vicino al cittadino”",
+
+"In chiusura, il Governatore ha espresso la speranza che, al termine del suo mandato, i cittadini ricordino il suo esecutivo come:",
+
+"“Un governo giusto, trasparente e sempre al fianco dei cittadini. Nessuno deve rimanere indietro.”",
+
+"Ha concluso con un impegno chiaro:",
+
+"“Non faremo promesse, ma lavoreremo con i fatti. Anche quando non parleremo, stiamo lavorando per voi.”",
+
+"## Weazel News — La voce della città"  
+    ],
+    "author": "Leonardo Formisano & Tony Denaro",
+    "category": "POLITICA",
+    "tags": ["Politica"],
+    "publishedDate": "2025-11-10T22:30:00Z",
+    "readTime": "5 MIN",
+    "image": "",
+    "archived": false,
+    "position": "main",
+    "priority": 1
+  },
+  {
+    "id": "1.002",
+    "title": "«Weazel News risponde a RanchoNews: “La verità non si compra, si costruisce con il rispetto",
+    "summary": "Lemon City — Nelle ultime ore, una nuova agenzia autoproclamatasi “la migliore di Lemon City” ha pubblicato un messaggio pubblico rivolto ai cittadini, accusando Weazel News di essere un’emittente “interessata solo ai soldi”. Come redazione storica e riconosciuta per la propria imparzialità, Weazel News Lemon City ritiene doveroso rispondere con chiarezza e rispetto, ribadendo i principi che da sempre guidano il nostro lavoro.",
+    "content": [
+      "## Il nostro impegno: verità, professionalità e libertà di stampa",
+
+"Weazel News nasce con una missione semplice ma fondamentale: raccontare i fatti, non inventarli.",
+"Le nostre inchieste, i nostri servizi e le nostre interviste ufficiali con le istituzioni dimostrano ogni giorno il nostro impegno per una stampa trasparente e indipendente.",
+
+"“Noi non vendiamo notizie, costruiamo fiducia.”",
+"— Direzione Weazel News",
+
+"Ogni servizio che produciamo è frutto di verifiche, contatti istituzionali e presenza costante sul territorio.",
+"Non abbiamo bisogno di screditare chi fa informazione: crediamo che la qualità parli da sola.",
+
+"## Rispetto reciproco tra testate",
+
+"La libertà di stampa è un diritto fondamentale, ma comporta anche responsabilità.",
+"Attaccare pubblicamente colleghi o lanciare accuse senza prove non contribuisce a una sana competizione, ma mina la credibilità di tutta la stampa cittadina.",
+
+"Noi di Weazel News accogliamo con rispetto la nascita di nuove agenzie, purché operino nel rispetto della verità e del lavoro altrui.",
+
+"## La nostra promessa ai cittadini",
+
+"Weazel News continuerà a essere la voce libera e ufficiale di Lemon City, garantendo informazione, neutralità e impegno costante per la comunità.",
+
+"“Non ci piegheremo mai alla disinformazione né alle provocazioni. Continueremo a servire i cittadini con i fatti, non con le parole.”",
+
+"## Weazel News — La voce della città"  
+    ],
+    "author": "Leonardo Formisano & Tony Denaro",
+    "category": "WEAZEL NEWS",
+    "tags": ["Weazel News"],
+    "publishedDate": "2025-11-10T22:30:00Z",
+    "readTime": "2 MIN",
+    "image": "https://i.imgur.com/S9ywhIK.png",
+    "archived": false,
+    "position": "side",
+    "priority": 3
+  },
+    {
+    "id": "1.003",
+    "title": "Dopo le accuse anonime alla LCPD, si accende il confronto: la Vice Capo Cross risponde e apre al dialogo",
+    "summary": "Lemon City — A pochi giorni dalla pubblicazione del nostro articolo, «Abusi di potere nella LCPD? — Un gruppo anonimo chiede risposte entro 72 ore», la situazione in città ha preso una piega inattesa. Le risposte ufficiali della LCPD e il successivo scambio di comunicazioni tra il Dipartimento e il gruppo anonimo autodefinitosi “portavoce dei cittadini” hanno acceso un intenso dibattito pubblico sul tema della trasparenza e della fiducia tra istituzioni e cittadini.",
+    "content": [
+      "## Dalla denuncia anonima alla risposta ufficiale",
+
+"Tutto è iniziato con la lettera anonima giunta alla nostra redazione, in cui un gruppo di cittadini denunciava presunti abusi di potere, arresti sommari e coperture interne” all’interno della LCPD, chiedendo un’indagine immediata e un intervento dei vertici.",
+
+"La LCPD, per voce della Vice Capo Nathalie Cross, ha risposto con un comunicato ufficiale in cui ha precisato che:",
+
+"“Il Reparto Risorse Umane sta svolgendo attività e addestramenti per ridurre al minimo errori operativi e procedurali. Le eventuali sanzioni rimangono di competenza interna per ragioni di privacy.”",
+
+"Inoltre, la polizia ha invitato i segnalanti a presentarsi negli uffici del Dipartimento per fornire prove concrete, ricordando che in mancanza di esse le accuse non possono essere considerate valide ai sensi del Quinto Emendamento.",
+
+"## Il mancato confronto sulla frequenza 1024",
+
+"Nei giorni successivi, la LCPD ha riferito di essersi resa disponibile a un confronto radiofonico pubblico, collegandosi sulla frequenza 1024 alle ore 22:15, come richiesto dai cittadini.",
+"Tuttavia, nessuno dei rappresentanti del gruppo anonimo si è presentato.",
+
+"“Abbiamo mantenuto la linea aperta fino alle 23:20.",
+"Nessuno si è collegato.",
+"Ci auguravamo un dialogo costruttivo, ma la mancata comparsa fa pensare a un gesto provocatorio piuttosto che collaborativo.”",
+"— Vice Capo Nathalie Cross",
+
+"## Le scuse del “Professore” e la nuova proposta",
+
+"Successivamente, il portavoce del gruppo, noto come “Il Professore”, ha inviato una comunicazione ufficiale alla nostra redazione, nella quale si è scusato per l’assenza:",
+
+"“A causa di imprevisti e situazioni d’emergenza non siamo riusciti a collegarci in tempo. Il nostro intento resta quello di favorire un dialogo trasparente con la LCPD, nell’interesse dei cittadini.”",
+
+"Il gruppo ha poi proposto un nuovo incontro diretto, ponendo alcune condizioni:",
+
+"- Assenza di armi da entrambe le parti,",
+
+"- Nessun arresto o perquisizione,",
+
+"- Presenza della stampa come garanzia di imparzialità,",
+
+"- Partecipazione mascherata per mantenere l’anonimato dei membri.",
+
+"## La replica ferma della LCPD",
+
+"La Vice Capo Cross ha risposto in modo deciso, definendo le richieste “inattuabili e inaccettabili”:",
+
+"“Coprirsi il volto per evitare di essere riconosciuti costituisce reato. Chi non ha nulla da nascondere non deve temere controlli o verifiche. Le nostre porte restano aperte, ma nel rispetto delle leggi e delle procedure vigenti.”",
+
+"Nonostante il tono fermo, la LCPD ha comunque invitato i rappresentanti del gruppo a presentarsi questa sera alle ore 22:00 presso il Desk del Dipartimento, per un confronto diretto e ufficiale.",
+
+"## Cittadini divisi, tensione crescente",
+
+"Le reazioni della popolazione di Lemon City sono contrastanti:",
+"alcuni appoggiano l’iniziativa della LCPD e il suo approccio istituzionale, altri criticano la gestione delle comunicazioni e chiedono maggiore trasparenza da entrambe le parti.",
+
+"In città cresce l’attesa per capire se il gruppo dei “portavoce dei cittadini” si presenterà davvero all’incontro annunciato — o se questo confronto, nato come gesto di denuncia, rischierà di trasformarsi in una frattura insanabile tra comunità e forze dell’ordine.",
+
+"Weazel News continuerà a seguire da vicino la vicenda, garantendo informazione imparziale e rispetto di tutte le parti coinvolte.",
+
+"## Weazel News — La voce della città"  
+    ],
+    "author": "Leonardo Formisano & Tony Denaro",
+    "category": "LCPD",
+    "tags": ["LCPD"],
+    "publishedDate": "2025-11-10T22:30:00Z",
+    "readTime": "3 MIN",
+    "image": "https://i.imgur.com/1l2BSbR.png",
+    "archived": false,
+    "position": "bottom",
+    "priority": 4
   }
 ]
