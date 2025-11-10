@@ -383,5 +383,58 @@
     "archived": false,
     "position": "bottom",
     "priority": 4
+  },
+  {
+    "id": "1.004",
+    "title": "Weazel News apre le selezioni: cercasi nuovi reporter e fotoreporter per raccontare la città",
+    "summary": "Lemon City — La redazione di Weazel News Lemon City è in crescita e apre ufficialmente le porte a nuovi talenti! Siamo alla ricerca di reporter e fotoreporter appassionati, determinati e pronti a vivere la città in prima linea, raccontando con professionalità ogni fatto, storia o evento che anima le nostre strade.",
+    "content": [
+"## Unisciti alla voce della città",
+
+"Weazel News rappresenta da sempre il punto di riferimento dell’informazione libera e indipendente a Lemon City.",
+"Ogni giorno raccontiamo la realtà con coraggio, dando spazio ai cittadini, alle istituzioni e ai protagonisti della cronaca.",
+
+"“Non cerchiamo solo giornalisti: cerchiamo occhi curiosi, menti attente e persone che credono nel potere della verità.”",
+
+"## Cosa cerchiamo",
+
+"Reporter",
+"– Capacità di scrivere articoli, cronache e interviste.",
+"– Spirito d’iniziativa e disponibilità a seguire notizie sul campo.",
+"– Conoscenza delle dinamiche e rispetto dell’etica giornalistica.",
+
+"Fotoreporter",
+"– Abilità nell’immortalare scene, eventi e momenti cruciali della vita cittadina.",
+"– Creatività e rapidità nel cogliere la notizia visivamente.",
+"– Collaborazione con la redazione per la pubblicazione di articoli illustrati.",
+
+"## Perché unirsi a Weazel News",
+
+"Entrare nella nostra redazione significa entrare in una grande squadra:",
+"un gruppo di professionisti che lavora ogni giorno con dedizione per informare, raccontare e documentare la vita della città con onestà e passione.",
+
+"Weazel News offre ai nuovi membri:",
+"Formazione interna",
+"Accesso agli eventi ufficiali",
+"Opportunità di crescita nella redazione",
+"Visibilità pubblica attraverso i nostri canali ufficiali",
+
+"Come candidarsi",
+
+"Chiunque desideri entrare a far parte del nostro team può contattare la redazione tramite i nostri canali ufficiali o presentarsi presso la sede di Weazel News Lemon City per un breve colloquio conoscitivo.",
+
+"La città ha bisogno di nuove voci. Forse la prossima sarà la tua.",
+
+"## Weazel News — La voce della città"  
+    ],
+    "author": "Leonardo Formisano & Tony Denaro",
+    "category": "WEAZEL NEWS",
+    "tags": ["Weazel News"],
+    "publishedDate": "2025-11-10T22:30:00Z",
+    "readTime": "3 MIN",
+    "image": "https://i.postimg.cc/bwRmfTdS/Weazel-News.jpg",
+    "archived": false,
+    "position": "bottom",
+    "priority": 4
   }
 ]
